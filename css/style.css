@@ -237,14 +237,22 @@ opacity: 0;
   position: absolute;
 }
 
-@media screen and (max-width: 650px) (min-device-width: 375px){
-.icon {
-  width: 40px;
+@media screen and (max-width: 650px min-device-width: 450px){
+  .icon {
+    width: 40px;
+    }
+
+  h2 {
+    font-size: 3em;
+  }
+}
+
+@media screen and (max-width: 450px){
+h2 {
+  font-size: 2.5em;
 }
 
 }
-
-
 
 
 body {
