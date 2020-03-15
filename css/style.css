@@ -1,8 +1,7 @@
 @import 'foundation';
 
 @font-face { font-family: 'Gilroy-ExtraBold.otf' 'Gilroy-Ligt.otf';
-             src: local ('Gilroy-ExtraBold.otf' 'Gilroy-Ligt.otf')
-                  url('Gilroy/Gilroy-ExtraBold.otf' 'Gilroy/Gilroy-Light.otf') format('opentype'); 
+             src: url('Gilroy/Gilroy-ExtraBold.otf' 'Gilroy/Gilroy-Light.otf') format('opentype'); 
                 }
 
 @include foundation-xy-grid-classes(
@@ -238,7 +237,7 @@ opacity: 0;
   position: absolute;
 }
 
-@media screen and (max-width: 650px min-device-width: 450px){
+@media screen and (max-width: 650px) and (min-width: 450px){
   .icon {
     width: 40px;
     }
@@ -248,13 +247,12 @@ opacity: 0;
   }
 
   h2 {
-    font-size: 3em;
+    font-size: 2.5em;
   }
-
 
 }
 
-@media screen and (max-device-width: 450px){
+@media screen and (max-width: 450px){
   h2 {
     font-size: 2.5em;
   }
@@ -263,12 +261,11 @@ opacity: 0;
     font-size: 3.8em;
   }
 
-body {
- 
-  margin-right: 0;
+  body {
+   
+    margin-right: 0;
 
-}
-
+  }
 }
 
 
@@ -298,6 +295,9 @@ h1 {
   letter-spacing: 0.025em;
   -webkit-text-stroke: 1.5px #000;
   z-index: 10000;
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
 }
 
 h2 {
@@ -306,6 +306,9 @@ h2 {
   font-weight: 900;
   text-transform: uppercase;
   margin-top: 100px;
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
 }
 
 h3 {
