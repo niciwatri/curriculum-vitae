@@ -6,3 +6,15 @@ figcaption {
 .bocado {
 	max-width: ;
 }
+
+
+img {
+	width: 100%;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+
+img:hover {
+	width: 110%;
+}
