@@ -1,12 +1,20 @@
 figcaption {
-	margin-top: 3%;
+	margin-top: 1%;
 
 }
 
 .bocado {
-	max-width: ;
+	translate: 20%;
 }
 
+.box {
+	border-style: solid;
+	border-width: 1px;
+	height: 60%;
+	width: 80%;
+	padding: 1em;
+	margin-left: 1em;
+}
 
 img {
 	width: 100%;
@@ -17,4 +25,14 @@ img {
 
 img:hover {
 	width: 110%;
+}
+
+
+.date {
+	font-size: 0.8rem;
+	font-weight: bold;
+	letter-spacing: 0.025em;
+	margin-top: 3%;
+	margin-left: 0;
+	margin-bottom: 0;
 }
