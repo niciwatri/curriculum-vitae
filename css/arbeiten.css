@@ -50,6 +50,10 @@ figcaption {
 	padding-bottom: 10%;
 }
 
+.bildlegende {
+	font-weight: 200;
+}
+
 .top-versatz{
 	margin-top: 20%;
 }

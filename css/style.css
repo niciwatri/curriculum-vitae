@@ -1,5 +1,5 @@
-@font-face { font-family: 'Gilroy-ExtraBold.otf' 'Gilroy-Ligt.otf';
-             src: url('Gilroy/Gilroy-ExtraBold.otf' 'Gilroy/Gilroy-Light.otf') format('opentype'); 
+@font-face { font-family: 'Gilroy-ExtraBold.otf' 'Gilroy-Light.otf';
+             src: url('../Gilroy/Gilroy-ExtraBold.otf' '../Gilroy/Gilroy-Light.otf') format('opentype'); 
                 }
 
 @include foundation-xy-grid-classes(
