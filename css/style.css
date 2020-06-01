@@ -1,5 +1,3 @@
-@import 'foundation';
-
 @font-face { font-family: 'Gilroy-ExtraBold.otf' 'Gilroy-Ligt.otf';
              src: url('Gilroy/Gilroy-ExtraBold.otf' 'Gilroy/Gilroy-Light.otf') format('opentype'); 
                 }
@@ -252,6 +250,7 @@ opacity: 0;
   }
 
 }
+
 
 @media screen and (max-width: 450px){
   h2 {
