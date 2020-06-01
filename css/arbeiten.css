@@ -15,7 +15,7 @@ p {
 
 h5 {
 	font-size: 1.2em;
-	font-weight: normal;
+	  font-family: 'Gilroy-Light';
 	/*color: #82142b;*/
 	text-transform: uppercase;
   letter-spacing: 0.025em;
@@ -46,12 +46,12 @@ ul  {
 }
 
 figcaption {
-	font-weight: 700;
+	  font-family: 'Gilroy-ExtraBold';
 	padding-bottom: 10%;
 }
 
 .bildlegende {
-	font-weight: 200;
+	  font-family: 'Gilroy-Light';
 }
 
 .top-versatz{
