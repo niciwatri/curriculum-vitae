@@ -19,6 +19,10 @@
   */
 );
 
+footer {
+ font-family: 'Gilroy-Light';
+}
+
 /* Navigation */
 .top-bar-right li a {
   font-family: 'Gilroy-ExtraBold';
