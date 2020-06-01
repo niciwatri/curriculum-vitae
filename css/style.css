@@ -1,7 +1,10 @@
-@font-face { font-family: 'Gilroy-ExtraBold.otf' 'Gilroy-Light.otf';
-             src: local('Gilroy-ExtraBold.otf' 'Gilroy-Light.otf')
-                  url('../Gilroy/Gilroy-ExtraBold.otf' '../Gilroy/Gilroy-Light.otf') format('opentype'); 
+@font-face { font-family: 'Gilroy-ExtraBold';
+             src: url('../Gilroy/Gilroy-ExtraBold.otf') format('opentype'); 
                 }
+
+@font-face { font-family: 'Gilroy-Light';
+             src: url('../Gilroy/Gilroy-Light.otf') format('opentype'); 
+                }                
 
 @include foundation-xy-grid-classes(
   /* options
@@ -18,7 +21,7 @@
 
 /* Navigation */
 .top-bar-right li a {
-  font-weight: 600;
+  font-family: 'Gilroy-ExtraBold';
 }
 
 .top-bar.topbar-responsive{
@@ -302,7 +305,7 @@ h1 {
   font-family: Gilroy;
   color: white;
   font-size: 4.4em;
-  font-weight: 900;
+  font-family: 'Gilroy-ExtraBold';
   line-height: 100%;
   text-transform: uppercase;
   letter-spacing: 0.025em;
@@ -316,7 +319,7 @@ h1 {
 h2 {
   color: black;
   font-size: 3.5em;
-  font-weight: 900;
+    font-family: 'Gilroy-ExtraBold';
   text-transform: uppercase;
   margin-top: 100px;
   -webkit-hyphens: none;
@@ -327,7 +330,7 @@ h2 {
 h3 {
   color: black;
   font-size: 1.2em;
-  font-weight: 900;
+    font-family: 'Gilroy-ExtraBold';
   text-transform: uppercase;
   /*text-decoration: underline overline black;*/
   /*border-top: 2px solid black;
@@ -339,7 +342,7 @@ h3 {
 }
 
 h4 {
-  font-weight: 900;
+    font-family: 'Gilroy-ExtraBold';
   font-size: 1.2em;
 }
 
@@ -427,7 +430,7 @@ margin-top: 20%;
 
 .timeline a {
   color: black;
-  font-weight: bold;
+    font-family: 'Gilroy-ExtraBold';
   transition: all 0.25s ease-in;
 }
 
@@ -487,7 +490,7 @@ margin-top: 20%;
 
 .timeline .timeline-item .timeline-content .timeline-content-date {
   font-size: 16px;
-  font-weight: bold;
+    font-family: 'Gilroy-ExtraBold';
   margin-bottom: 2%;
   position: relative;
   /*border-top: 2px solid black;
@@ -512,7 +515,7 @@ margin-top: 20%;
 .timeline .timeline-item .timeline-content .timeline-content-month {
   font-size: 0.875rem;
   text-transform: uppercase;
-  font-weight: 400;
+    font-family: 'Gilroy-Light';
 }
 
 .timeline .timeline-item .timeline-content.right {
