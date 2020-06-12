@@ -41,6 +41,9 @@ a:hover {
 	color: black;
 }
 
+.lead {
+	margin-bottom: 15%;
+}
 
 .cell ul  {
 	font-size: 1.2em;
