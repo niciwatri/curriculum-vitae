@@ -129,6 +129,7 @@ figcaption {
  /*	height: 550px;
 	width: auto;*/
 	max-width: 100%;
+	height: auto;
 }
 
 .carousel-cell {
@@ -155,5 +156,10 @@ figcaption {
 
 .hochformatig {
 	width: 50%;
+}
+
+.flickity-viewport {
+  transition: height 0.2s;
+  height: 100%;
 }
 
