@@ -123,8 +123,9 @@ figcaption {
 
 	margin: 0 auto;
 	display: block;
- 	height: 600px;
-	width: auto;
+ /*	height: 550px;
+	width: auto;*/
+	max-width: 100%;
 }
 
 .carousel-cell {
@@ -145,5 +146,7 @@ figcaption {
 .carousel-cell figcaption {
   padding-bottom: 0;
   margin: 0 10%;
+  width: 100%;
+  padding-top: 2%;
 }
 
