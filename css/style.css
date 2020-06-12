@@ -551,5 +551,9 @@ margin-top: 20%;
   .timeline .timeline-item .timeline-icon {
     left: 0;
   }
+
+  .top-minus-versatz {
+    margin-top: 0;
+  }
 }
 

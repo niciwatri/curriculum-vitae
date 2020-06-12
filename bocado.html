@@ -21,7 +21,7 @@
 
 <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 
-
+<link rel="stylesheet" href="https://unpkg.com/flickity-fullscreen@1/fullscreen.css">
 
    <!--  <script src="js/vendor/jquery.js"></script> -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
@@ -31,6 +31,8 @@
     <script src="js/app.js"></script>
 
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+    <script src="https://unpkg.com/flickity-fullscreen@1/fullscreen.js"></script>
 
   </head>
 
@@ -107,10 +109,8 @@
   </div>
 
 <div class="cell small-12 medium-5 large-8 large-offset-3">
-<p class="lead">Das Hauptthema dieses Faches bestand darin, den User immer in den Mittelpunkt des Design-Prozesses zu stellen. Wir beschäftigen uns mit dem gesamten Ablauf – von der Entwicklung bis zur Umsetzung eines Produktes. Angefangen bei der persönlichen Auseinandersetzung mit dem Thema, Personas und Szenarien erstellen bis zur Konzeption und HiFi-Gestaltung eines Prototypen. Unsere Notizen zu den gelernten und angewendeten Methoden werden ebenfalls dokumentiert.
-
-Aufgabenbeschrieb
-Die Aufgabe im Modul Human Centered Design besteht darin, eine digitale Lernplattform zu erarbeiten, welche sich an Studierende einer Hochschule richten soll. Sie soll eine zentrale Schnittstelle zwischen Bildungsanbieter und der lernenden Person darstellen.
+<p class="lead">Das Hauptthema dieses Faches bestand darin, den User immer in den Mittelpunkt des Design-Prozesses zu stellen. Also dem Human Centered Design. Wir beschäftigen uns mit dem gesamten Ablauf – von der Entwicklung bis zur Umsetzung eines Produktes. Angefangen bei der persönlichen Auseinandersetzung mit dem Thema, Personas und Szenarien erstellen bis zur Konzeption und HiFi-Gestaltung eines Prototypen. 
+Die Aufgabe bestand darin, eine digitale Lernplattform zu erarbeiten, welche sich an Studierende einer Hochschule richten soll. Sie soll eine zentrale Schnittstelle zwischen Bildungsanbieter und der lernenden Person darstellen.
     </p>
  </div>
 
@@ -167,7 +167,11 @@ Die Aufgabe im Modul Human Centered Design besteht darin, eine digitale Lernplat
 
 <!-- Flickity HTML init -->
 <div class="cell small-12 medium-8 large-12">
-  <div class="main-carousel js-flickity">
+  <div class="main-carousel js-flickity" data-flickity='{
+    "fullscreen": true,
+    "adaptiveHeight": true,
+    "wrapAround": true,
+  }'>
     <!-- images from unsplash.com -->
     <div class="carousel-cell">
       <img src="img/bocado/hugohybrid_vpc.png" alt="VPC von Hugo Hybrid" />
@@ -180,13 +184,13 @@ Die Aufgabe im Modul Human Centered Design besteht darin, eine digitale Lernplat
     <div class="carousel-cell">
       <img src="img/bocado/storyboard.jpg" alt="Skizze des Storyboards." />
       <figcaption>Wie wird unser Produkt im Alltag von Hugo eingesetzt?<br>
-       <b>Szene 1:</b> Während der Vorlesung hat Hugo besseres zu tun wie sich Notizen zu machen. Ihn interessiert das Fach Mathematik nicht. Er sucht nach neuen Golfkleidern und ist auf Instagram.<br>
-    <b>Szene 2:</b> Auf dem Heimweg ist er zu Müde und hat keine Lust sein Material hervorzukramen. Während dem Musikhören erhält er eine Pushbenachrichtigung der First steps App.<br>
-    <b>Szene 3a:</b> Die Nachricht lautet: Hey Hugo! Reflektiere deine Mathematik Stunde und schlage Edi, indem du mehr Punkte erzielst.<br>
-    <b>Szene 3b:</b> Hugo löst die 5 Fragen.<br>
-    <b>Szene 4:</b> Einige Minuten später hat Hugo das Spiel gewonnen und es wird ein Pokal angezeigt. Hugo hat Edi geschlagen und bekommt 5 Punkte.<br>
-    <b>Szene 5:</b> Hugo lernt erfolgreich und hat seinen Lernplan im Griff. Er gönnt sich ein Cüpli.<br>
-    <b>Szene 6:</b> Hugo hat seine Prüfungen bestanden und gönnt sich einen Dom Perignon.</figcaption>
+       <b>Szene 1-6:</b> Hugo interessiert sich nicht für die Vorlesung. 
+    Auf dem Heimweg erhält er eine Pushbenachrichtigung der Bocado App. 
+   Die Nachricht lautet: Hey Hugo! Reflektiere deine Mathematik Stunde und schlage Edi, indem du mehr Punkte erzielst. 
+    Hugo löst die 5 Fragen. 
+    Einige Minuten später hat Hugo das Spiel gewonnen und es wird ein Pokal angezeigt. Hugo hat Edi geschlagen und bekommt 5 Punkte. 
+    Hugo lernt erfolgreich und hat seinen Lernplan im Griff. Er gönnt sich ein Cüpli. 
+    Hugo hat seine Prüfungen bestanden und gönnt sich einen Dom Perignon.</figcaption>
     </div>
     <div class="carousel-cell">
       <img src="img/bocado/userjourney.png" alt="Userjourney unserer Persona." />
